@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+:root{
+    --text-color: #ffffff;
+    --main-color: #13bbff;
+    --bg-color: #1b1f24;
+
+    --big-font: 4.5rem;
+    --h4-font: 1.6rem;
+    --p-font: 1.1rem;
+}
+
+body {
+    color: var(--text-color);
+    
+    /* background: var(--bg-color); */
+
+}
+
+.bgimage{
+    background-image: url(javier-trueba-iQPr1XkF5F0-unsplash.jpg);
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    align-items: center;
+    padding: 40px 16%;
+    background: transparent;
+    transition: all .55s ease;
+}
+
+.logo{
+    font-size: 36px;
+    color:  #ffffff;
+    font-weight: 600;
+}
+
+span{
+    color: var(--main-color);
+}
+
+
+.h-btn{
+    display: inline-block;
+   padding: 11px 26px;
+    background: transparent;
+    color: white;
+    border: 2px solid var(--main-color);
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: all .55s ease;
+    margin: 1vw;
+
+    }
+
+.h-btn:hover{
+        background: var(--main-color);
+        color: var(--bg-color);
+        box-shadow: 0 0 20px var(--main-color);
+        transform: scale(1.1);   
+ } 
+
+.cont {
+    display: flex;
+    justify-content: space-between;
+}
+.boooox {
+    border: radius 2px solid black;
+    height: 300px;
+    width: 300px;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    background-color: #1b1f24;
+    padding: 40px;
+    border-radius: 20px;
+    margin: 30px;
+
+}
+
+i{
+    height: 50px;
+    width: 40px;
+}
+
+.boooox h2{
+    margin-top: 20px;
+}
+.boooox p{
+    margin-top: 20px;
+}
+button {
+    width: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+.boooox button{
+    margin-top: 20px;
+
+}
+
+
+

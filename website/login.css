@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+:root{
+    --text-color: #ffffff;
+    --main-color: #13bbff;
+    --bg-color: #1b1f24;
+
+    --big-font: 4.5rem;
+    --h4-font: 1.6rem;
+    --p-font: 1.1rem;
+}
+
+body{
+    background-image: url(javier-trueba-iQPr1XkF5F0-unsplash.jpg);
+    background-position: fixed;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100vw;
+    color: var(--text-color);
+    z-index: 1;
+
+    height: 100vh;
+    background-repeat: no-repeat;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    align-items: center;
+    padding: 40px 16%;
+    background: transparent;
+    transition: all .55s ease;
+}
+
+.logo{
+    font-size: 36px;
+    color: black;
+    font-weight: 600;
+}
+
+span{
+    color: var(--main-color);
+}
+
+
+.h-btn{
+    display: inline-block;
+   padding: 11px 26px;
+    background: transparent;
+    color: white;
+    border: 2px solid var(--main-color);
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: all .55s ease;
+    margin: 1vw;
+
+    }
+
+.h-btn:hover{
+        background: var(--main-color);
+        color: var(--bg-color);
+        box-shadow: 0 0 20px var(--main-color);
+        transform: scale(1.1);   
+ } 
+
+ .contain{
+    position: fixed;
+
+width: 300px;
+height: 400px;
+background-color: rgb(0, 0, 0);
+text-align: center;
+color: white;
+margin-top: 7%;
+border-radius: 30px;
+
+margin-left: 36%;
+}
+
+.contain .text{ 
+    position: relative; 
+top: 7%;
+}
+.inp1{
+border: none;
+width: 250px;
+outline: none;
+background-color: black; border-bottom: 2px solid white; 
+font-size: 20px; 
+margin-top: 40px;
+color: white;
+}
+
+.inp2{
+    border: none;
+    background-color: black; border-bottom: 2px solid white;    
+    width: 250px;
+    font-size: 20px;
+    margin-top: 40px; outline: none;
+    color: white;
+}
+
+.text button{ width: 250px;
+    height: 44px;
+    background-color: aqua;
+    color: black;
+    border: none;
+    font-size: 22px; border-radius: 25px; margin-top: 20px; 
+    cursor: pointer;
+    }
+button:hover{
+        border: 3px solid aqua;
+        color: white;
+        font-size: 20px;
+        background-color: black;
+        box-shadow: 0 0 20px var(--main-color);
+         
+} 
+
+p{        
+        margin-top: 30px; font-size: 20px;      
+}
+
+
+.contain h1{
+font-size: 36px;
+color: aqua;
+}
+
+.contain .text{
+position: relative;
+ top: 7%;
+}
+

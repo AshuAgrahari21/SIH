@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact1.css">
+
+    <script src="dropdown.js"></script>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+
+    <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+  <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+</head>
+<body>
+
+
+    <header>
+        <h1><i class="fa-solid fa-graduation-cap" id="main"></i><a href="" class="logo">Edu <span>.Tech</span></a></h1>
+        <div class="navlist">
+           
+            <!-- Move the search bar outside of the list -->
+            <div class="search-bar">
+                <input type="text" name="" id="abcd" placeholder="Search College">
+                <i class="ri-search-line" id="seach11"></i>
+            </div>
+            <!-- <li><a href="#"><i class="fa-solid fa-user"></i> Profile</a></li> -->
+            <li><a href="home0.html"><i class="fa-solid fa-house"></i> Home</a></li>
+            <li><a href="about2.html"><i class="fa-solid fa-address-card"></i> About Us</a></li>
+            <li><a href="contact1.html"><i class="fa-regular fa-address-book"></i> Contact Us</a></li>
+            <!-- <li><a href="#"><i class="fa-solid fa-right-from-bracket"></i> Log Out</a></li> -->
+            <li><div class="dropdown">
+                <button class="dropdown-btn" onclick="toggleDropdown()">
+                    
+                    <span class="material-symbols-outlined" id="person-icon" >account_box </span>
+                    <span class="material-symbols-outlined expand-icon"> expand_more </span>
+                </button>
+                
+                <div class="dropdown-content" id="myDropdown">
+                    <div class="nested-dropdown">
+                      <a href="#">
+                        <span class="material-symbols-outlined" >person</span>
+                        Profile
+                      </a>
+            
+                      <div class="nested-dropdown-content">
+                        <a href="#">
+                          <span class="material-symbols-outlined">contact_mail</span>
+                          Akhil
+                        </a>
+                        <a href="#">
+                          <span class="material-symbols-outlined">Mail</span>
+                          akhil@gmail.com
+                        </a>
+                        <a href="#">
+                          <span class="material-symbols-outlined">explore</span>
+                          akhil.org
+                        </a>
+                      </div>
+                    </div>
+                  <a href="#">
+                    <span class="material-symbols-outlined"> Notifications </span>
+                    Notification
+                  </a>
+                  <a href="#">
+                    <span class="material-symbols-outlined">settings</span>
+                    setting
+                  </a>
+                  <a href="#">
+                    <span class="material-symbols-outlined">Bookmarks</span>
+                    Bookmark
+                  </a>
+          
+                  <a href="login.html">
+                    <span class="material-symbols-outlined">Logout</span>
+                    Logout
+                  </a>
+                </div>
+              </div>
+          </li>
+</div>
+        </div>
+    </header>
+
+
+
+    <section id="contact" class="contact" data-aos="zoom-in-up"   data-aos-offset="100"    data-aos-delay="10" data-aos-once="false">
+        <div class="container">
+  
+          <div class="section-title " style="margin-top: 20vh;margin-left: 4vw;" >
+            <h2 class="header-2" style="color: black;margin-bottom: 1rem;" >Contact</h2>
+            <hr style="width: 4vw;margin-bottom: 2vh; height:4px;background-color: blue; size: 30; color: rgb(0, 196, 196);" >
+            <p style="color: black;">If you have any questions about myself, or just want to say hello, feel free to contact me. Below are my contact and my email details:
+            </p>
+          </div>
+  
+          <div class="row" style="margin-top: 200px;">
+  
+            <div class="col-lg-5 d-flex align-items-stretch"  style="margin-top: -20vh;"data-aos-offset="100"    data-aos-delay="10">
+              <div class="info" style="margin-left: 2vw; margin-right: 2vw; "> 
+                <div class="flexxx" >
+                <div class="address">
+                  <!-- <i class="bi bi-ge o-alt"></i>    -->
+                  <i class="fas fa-map-marker-alt"></i>
+
+                  
+
+                  
+                  <h4>Location:</h4>
+                  <p> Ranchi,Jharkhand</p>
+                </div>
+  
+                <div class="email"> 
+                  <i class="fas fa-envelope"></i>
+                  <h4>Email:</h4>
+                  <p>abc@gmail.com</p>
+                </div>
+  
+                <div class="phone">
+                  <i class="fas fa-phone"></i>
+                  <h4>Call:</h4>
+                  <p>+91 100</p>
+                </div>
+  
+  
+              </div>
+            </div>
+  <div class="image">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2586853.564890407!2d83.70512741387495!3d23.872680871257604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398b2386df480857%3A0x62c5b809eee29004!2sJharkhand!5e0!3m2!1sen!2sin!4v1695254188942!5m2!1sen!2sin" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+            </div>
+            <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+            
+    
+            </div>
+  
+  
+          </div>
+  
+        </div>
+      </section>
+      
+
+</body>
+</html>
